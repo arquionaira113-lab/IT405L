@@ -1,0 +1,5 @@
+Step 7 failed because 1/0 causes a ZeroDivisionError in Python. The error happens before the
+ evaluate() function can process the expression because the tuple values are evaluated first. 
+ Python’s own or operator would not evaluate the right side when the left side is already True 
+ because it uses short-circuit evaluation. This shows that my evaluator evaluates both sides of 
+ an expression, unlike Python’s own or operator.
